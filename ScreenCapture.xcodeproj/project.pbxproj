@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22A1D8DB14D9AD470072D5FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A1D8DA14D9AD470072D5FB /* UIKit.framework */; };
+		22A1D8DD14D9AD470072D5FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A1D8DC14D9AD470072D5FB /* Foundation.framework */; };
+		22A1D8DF14D9AD470072D5FB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A1D8DE14D9AD470072D5FB /* CoreGraphics.framework */; };
+		22A1D8E514D9AD480072D5FB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22A1D8E314D9AD470072D5FB /* InfoPlist.strings */; };
+		22A1D8E714D9AD480072D5FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A1D8E614D9AD480072D5FB /* main.m */; };
+		22A1D8EB14D9AD480072D5FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A1D8EA14D9AD480072D5FB /* AppDelegate.m */; };
+		22A1D8EE14D9AD480072D5FB /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A1D8ED14D9AD480072D5FB /* MainViewController.m */; };
+		22A1D8F414D9AD480072D5FB /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22A1D8F214D9AD480072D5FB /* MainViewController.xib */; };
+		22A1D90814D9AE8B0072D5FB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A1D90714D9AE8B0072D5FB /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22A1D8D614D9AD470072D5FB /* ScreenCapture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenCapture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22A1D8DA14D9AD470072D5FB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		22A1D8DC14D9AD470072D5FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22A1D8DE14D9AD470072D5FB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		22A1D8E214D9AD470072D5FB /* ScreenCapture-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScreenCapture-Info.plist"; sourceTree = "<group>"; };
+		22A1D8E414D9AD470072D5FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22A1D8E614D9AD480072D5FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22A1D8E814D9AD480072D5FB /* ScreenCapture-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScreenCapture-Prefix.pch"; sourceTree = "<group>"; };
+		22A1D8E914D9AD480072D5FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22A1D8EA14D9AD480072D5FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22A1D8EC14D9AD480072D5FB /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		22A1D8ED14D9AD480072D5FB /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		22A1D8F314D9AD480072D5FB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainViewController.xib; sourceTree = "<group>"; };
+		22A1D90714D9AE8B0072D5FB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22A1D8D314D9AD470072D5FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A1D90814D9AE8B0072D5FB /* QuartzCore.framework in Frameworks */,
+				22A1D8DB14D9AD470072D5FB /* UIKit.framework in Frameworks */,
+				22A1D8DD14D9AD470072D5FB /* Foundation.framework in Frameworks */,
+				22A1D8DF14D9AD470072D5FB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22A1D8CB14D9AD470072D5FB = {
+			isa = PBXGroup;
+			children = (
+				22A1D90714D9AE8B0072D5FB /* QuartzCore.framework */,
+				22A1D8E014D9AD470072D5FB /* ScreenCapture */,
+				22A1D8D914D9AD470072D5FB /* Frameworks */,
+				22A1D8D714D9AD470072D5FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22A1D8D714D9AD470072D5FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22A1D8D614D9AD470072D5FB /* ScreenCapture.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22A1D8D914D9AD470072D5FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22A1D8DA14D9AD470072D5FB /* UIKit.framework */,
+				22A1D8DC14D9AD470072D5FB /* Foundation.framework */,
+				22A1D8DE14D9AD470072D5FB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22A1D8E014D9AD470072D5FB /* ScreenCapture */ = {
+			isa = PBXGroup;
+			children = (
+				22A1D8E914D9AD480072D5FB /* AppDelegate.h */,
+				22A1D8EA14D9AD480072D5FB /* AppDelegate.m */,
+				22A1D8EC14D9AD480072D5FB /* MainViewController.h */,
+				22A1D8ED14D9AD480072D5FB /* MainViewController.m */,
+				22A1D8F214D9AD480072D5FB /* MainViewController.xib */,
+				22A1D8E114D9AD470072D5FB /* Supporting Files */,
+			);
+			path = ScreenCapture;
+			sourceTree = "<group>";
+		};
+		22A1D8E114D9AD470072D5FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22A1D8E214D9AD470072D5FB /* ScreenCapture-Info.plist */,
+				22A1D8E314D9AD470072D5FB /* InfoPlist.strings */,
+				22A1D8E614D9AD480072D5FB /* main.m */,
+				22A1D8E814D9AD480072D5FB /* ScreenCapture-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22A1D8D514D9AD470072D5FB /* ScreenCapture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22A1D8FA14D9AD480072D5FB /* Build configuration list for PBXNativeTarget "ScreenCapture" */;
+			buildPhases = (
+				22A1D8D214D9AD470072D5FB /* Sources */,
+				22A1D8D314D9AD470072D5FB /* Frameworks */,
+				22A1D8D414D9AD470072D5FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreenCapture;
+			productName = ScreenCapture;
+			productReference = 22A1D8D614D9AD470072D5FB /* ScreenCapture.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22A1D8CD14D9AD470072D5FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 22A1D8D014D9AD470072D5FB /* Build configuration list for PBXProject "ScreenCapture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 22A1D8CB14D9AD470072D5FB;
+			productRefGroup = 22A1D8D714D9AD470072D5FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22A1D8D514D9AD470072D5FB /* ScreenCapture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22A1D8D414D9AD470072D5FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A1D8E514D9AD480072D5FB /* InfoPlist.strings in Resources */,
+				22A1D8F414D9AD480072D5FB /* MainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22A1D8D214D9AD470072D5FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A1D8E714D9AD480072D5FB /* main.m in Sources */,
+				22A1D8EB14D9AD480072D5FB /* AppDelegate.m in Sources */,
+				22A1D8EE14D9AD480072D5FB /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22A1D8E314D9AD470072D5FB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22A1D8E414D9AD470072D5FB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		22A1D8F214D9AD480072D5FB /* MainViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22A1D8F314D9AD480072D5FB /* en */,
+			);
+			name = MainViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22A1D8F814D9AD480072D5FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		22A1D8F914D9AD480072D5FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22A1D8FB14D9AD480072D5FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScreenCapture/ScreenCapture-Prefix.pch";
+				INFOPLIST_FILE = "ScreenCapture/ScreenCapture-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		22A1D8FC14D9AD480072D5FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScreenCapture/ScreenCapture-Prefix.pch";
+				INFOPLIST_FILE = "ScreenCapture/ScreenCapture-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22A1D8D014D9AD470072D5FB /* Build configuration list for PBXProject "ScreenCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22A1D8F814D9AD480072D5FB /* Debug */,
+				22A1D8F914D9AD480072D5FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22A1D8FA14D9AD480072D5FB /* Build configuration list for PBXNativeTarget "ScreenCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22A1D8FB14D9AD480072D5FB /* Debug */,
+				22A1D8FC14D9AD480072D5FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22A1D8CD14D9AD470072D5FB /* Project object */;
+}
